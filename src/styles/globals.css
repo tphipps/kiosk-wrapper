@@ -30,22 +30,3 @@ body {
 .app-transition {
   transition: opacity 0.3s ease-in-out;
 }
-
-/* Animation for the menu to slide up when inactive */
-@keyframes slideUp {
-  from { transform: translateY(0); opacity: 1; }
-  to { transform: translateY(-100%); opacity: 0; }
-}
-
-@keyframes slideDown {
-  from { transform: translateY(-100%); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
-
-.menu-slide-down {
-  animation: slideDown 0.3s forwards;
-}
-
-.menu-slide-up {
-  animation: slideUp 0.3s forwards;
-}
